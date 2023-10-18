@@ -1,5 +1,57 @@
-h1 {
-    font-family: sans-serif;
-    color: red;
-    font-size: 50px;
+*{
+    font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+*{
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 3rem 
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    align-items:center       
+}
+a{
+    text-decoration: none;
+
+}
+
+h1 {
+    
+    color: rgb(214, 53, 53);
+    font-size: 50px;
+    background-color: antiquewhite;
+}
+
+body {
+    background-color:azure
+}
+
+.marco_zero {
+   height: 150px;
+   width: 100px;
+}
+main h2{
+    background-color: antiquewhite;   
+}
+main p {
+    font-size: 18px;
+    background-color:white
+}
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;   
+}
+   
